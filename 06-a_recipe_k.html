@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>recipe</title>
+    <style>
+        .title {
+            font-size: 38px;
+            font-weight: 700;
+            color: gray;
+            width: 200px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 28px;
+            color: gray;
+        }
+
+        .level:hover {
+            color: pink;
+            border: 2px solid pink;
+            transition: 200ms ease all;
+        }
+
+        .title-box {
+            background-color: white;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: nowrap;
+            border-top: 1px solid rgb(214, 214, 214);
+            border-bottom: 1px solid rgb(214, 214, 214);
+        }
+
+        .side {
+            width: 50vw;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 8px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            margin: 100px 0px;
+        }
+
+        .level {
+            text-align: center;
+            border: 2px solid gray;
+            border-radius: 40px;
+            width: 160px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title-box">
+        <div class="side">
+        </div>
+        <div>
+            <a href="05-01_recipe_k.html">
+                <p class="title" title="처음 화면"> home cafe </p>
+            </a>
+        </div>
+        <div class="side"><img src="user_img.png" width="30px" hieght="30px"></div>
+    </div>
+    <div class="box">
+        <div><a href="07-easy_k.html">
+                <div class="level" title="초급">초급</div>
+            </a></div>
+    </div>
+    <div class="box">
+        <a href="middle.html">
+            <div class="level" title="중급">중급</div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="high.html">
+            <div class="level" title="고급">고급</div>
+        </a>
+    </div>
+</body>
+
+</html>

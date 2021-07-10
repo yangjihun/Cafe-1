@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 세상에서 가장 작은 카페 </title>
+    <meta charset="UTF-8">
+    <style>
+        .title {
+            font-size: 38px;
+            font-weight: 700;
+            color: gray;
+            width: 200px;
+        }
+
+        a:hover {
+            color: pink;
+            transition: 200ms ease all;
+        }
+
+        @media screen and (min-width:1001px) {
+            .title-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                flex-wrap: nowrap;
+                border-top: 1px solid rgb(214, 214, 214);
+                border-bottom: 1px solid rgb(214, 214, 214);
+            }
+
+            .side {
+                width: 50vw;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 8px;
+            }
+
+            .container {
+                background-color: white;
+                height: 30vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 6vh;
+            }
+
+            .item {
+                height: 35vh;
+                width: 487px;
+                margin: 2px;
+                border: 1px solid gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: gray;
+                font-size: 22px;
+            }
+        }
+
+        @media screen and (min-width:701px) and (max-width:1000px) {
+            .title-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                flex-wrap: nowrap;
+                border-top: 1px solid rgb(214, 214, 214);
+                border-bottom: 1px solid rgb(214, 214, 214);
+            }
+
+            .side {
+                width: 50vw;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 8px;
+            }
+
+            .container {
+                background-color: white;
+                height: 30vh;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 6vh;
+            }
+
+            .item {
+                height: 35vh;
+                width: 50vw;
+                margin: 2px;
+                border: 1px solid gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: gray;
+                font-size: 22px;
+            }
+        }
+
+        @media screen and (max-width:700px) {
+            .title-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 28px;
+                border-top: 1px solid rgb(214, 214, 214);
+                border-bottom: 1px solid rgb(214, 214, 214);
+            }
+
+            .side {
+                width: 36vw;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 8px;
+            }
+
+            .container {
+                display: block;
+            }
+
+            .item {
+                height: 18vh;
+                margin: 2px;
+                border: 1px solid gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: gray;
+                font-size: 22px;
+                margin-left: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title-box">
+        <div class="side">
+        </div>
+        <div>
+            <a href="05-01_recipe_k.html"><p class="title" title="처음 화면"> home cafe </p></a>
+        </div>
+        <div class="side"><img src="user_img.png" width="30px" hieght="30px"></div>
+    </div>
+    <div class="container container1">
+        <div class="item item1"><a href="06-a_recipe_k.html" title="recipe">레시피</a></div>
+        <div class="item item2"><a href="" title="">시험&자격증</a></div>
+    </div>
+    <div class="container container2">
+        <div class="item item3"><a href="" title="">요일별</a></div>
+        <div class="item item4"><a href="" title="">커뮤니티</a></div>
+    </div>
+</body>
+
+</html>
